@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    padding-inline-start: 0.5rem;
+}
+
+.p-checkbox .p-checkbox-box{
+	border: 1px solid rgb(49, 82, 196);
+	border-radius: 6px;
+    width: 22px;
+    height: 22px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
