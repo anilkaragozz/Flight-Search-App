@@ -13,3 +13,16 @@ input{
     height: 22px;
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
+
+.bg-image{
+    background:url(./assets/sky.jpeg); 
+    max-width: fit-content;
+    max-height: fit-content ;
+}
+
+.p-menuitem-link > span {
+    color: #ffff;
+}
+.p-menuitem-link:hover{
+    background-color: #3152C4;
+}
