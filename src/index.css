@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    display: flex;
+    justify-content: center;
+    min-height: 100% !important;
+}
+body {
+    min-width: 100svh;
+    min-height: 100svh;
+    font-family: IBM Plex Mono,monospace;
+   
+}
 input{
     padding-inline-start: 0.5rem;
 }
@@ -18,11 +29,4 @@ input{
     background:url(./assets/sky.jpeg); 
     max-width: fit-content;
     max-height: fit-content ;
-}
-
-.p-menuitem-link > span {
-    color: #ffff;
-}
-.p-menuitem-link:hover{
-    background-color: #3152C4;
 }
